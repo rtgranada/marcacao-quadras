@@ -1,0 +1,18 @@
+.coverProfile {
+  @include profile-picture(100%, 10vh, 15px);
+}
+.profileInfos {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  input {
+    pointer-events: none;
+    border: none;
+  }
+
+  .editable {
+    pointer-events: fill;
+    border: 1px solid green;
+  }
+}

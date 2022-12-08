@@ -1,0 +1,25 @@
+@mixin profile-picture($w-size, $h-size, $border-radius) {
+  max-width: $w-size;
+  max-height: $h-size;
+  border-radius: $border-radius;
+}
+
+@mixin steps-information(
+  $minw-size,
+  $maxw-size,
+  $minh-size,
+  $maxh-size,
+  $border-radius,
+  $bg-color,
+  $color,
+  $align
+) {
+  min-width: $minw-size;
+  max-width: $maxw-size;
+  min-height: $minh-size;
+  max-height: $maxh-size;
+  border-radius: $border-radius;
+  background-color: $bg-color;
+  color: $color;
+  text-align: $align;
+}

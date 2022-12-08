@@ -1,16 +1,8 @@
-import React from 'react'
-import './App.css';
+import "./components/Styles/styles.scss";
+import { AllRoutes } from "./components/Routes/AllRoutes";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Funcionando
-        </p>
-      </header>
-    </div>
-  );
+  return <AllRoutes />;
 }
 
 export default App;

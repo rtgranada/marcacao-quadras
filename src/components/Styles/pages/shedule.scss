@@ -1,0 +1,19 @@
+.schedule {
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+.displaySteps {
+  justify-content: center;
+  display: flex;
+}
+
+.botoes {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.agendaBody {
+  border: none;
+  min-height: 80vh;
+}

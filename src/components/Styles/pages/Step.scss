@@ -1,0 +1,34 @@
+.stepBtn {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  cursor: pointer;
+}
+.passedBtn {
+  @include steps-information(
+    15%,
+    15%,
+    5vh,
+    5vh,
+    50px,
+    rgb(66, 201, 48),
+    white,
+    center
+  );
+}
+.SetpActivated {
+  @include steps-information(
+    15%,
+    15%,
+    5vh,
+    5vh,
+    50px,
+    rgb(86, 228, 21),
+    white,
+    center
+  );
+}
+
+.SetpInactivated {
+  @include steps-information(15%, 15%, 5vh, 5vh, 50px, gray, black, center);
+}
